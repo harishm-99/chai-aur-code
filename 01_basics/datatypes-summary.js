@@ -7,7 +7,7 @@
 const score = 25;// Number value
 const scoreValue = 56.2;//Decimal is also number value
 const isLoggedin = false;// Boolean  value
-const outsideTemp = null;
+const outsideTemp = null;//Null value
 let userMail;// undefined value
 
 const id = Symbol('123');
@@ -32,9 +32,16 @@ const myFunction = function () {
     console.log("Hello World");
 };
 
+console.log(typeof (score));
+console.log(typeof (scoreValue));
+console.log(typeof (isLoggedin));
+console.log(typeof (outsideTemp));// The data type of null shows object
+console.log(typeof (userMail));
+console.log(typeof (id));
+console.log(typeof (heroes));// DT of Array shows object
+console.log(typeof (myObj));
 console.log(typeof (myFunction));
 console.log(typeof (bigNumber));
-console.log(typeof (outsideTemp));// The data type of null shows object
 
 
 
