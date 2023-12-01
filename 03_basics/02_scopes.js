@@ -50,7 +50,7 @@ function addOne(num) {
 
 
 
-console.log(addTwo(9));
+// console.log(addTwo(9));//Cannot preprint the function before intializing
 const addTwo = function(num) {
     return num + 1;
 }
