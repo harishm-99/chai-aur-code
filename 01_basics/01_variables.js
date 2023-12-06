@@ -7,7 +7,7 @@ accountCity = "Bengaluru";
 
 accountEmail = "harish@google.com";
 accountPassword = "098765";
-accountCity = "Jaipur";
+accountCity = "Jaipur";//
 
 let accountState;
 
